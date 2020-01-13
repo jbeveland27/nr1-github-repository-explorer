@@ -68,6 +68,6 @@ Deleting Token from NerdStorage:
 
 ## Notes
 
-- This project borrowed some ideas and code present in the [nr1-github](https://github.com/newrelic/nr1-github) and [nr1-workshop](https://github.com/newrelic/nr1-workshop) projects. I have made refernces in the code to where things were borrowed to give proper attribution.
+- This project borrowed some ideas and code present in the [nr1-github](https://github.com/newrelic/nr1-github) and [nr1-workshop](https://github.com/newrelic/nr1-workshop) projects. I have made references in the code to where things were borrowed to give proper attribution.
 - The GraphQL query given with the assignment is still present in the project [here](./nerdlets/nr1-github-repository-explorer-nerdlet/graphql/Queries.js). I elected to extend it a bit to gather some more data for display in the table.
 - Apollo GraphQL was chosen for interacting with the GitHub GraphQL API as it's the industry-standard GraphQL client and has a robust feature set. It was only used here for two API calls, but it's flexibility would be useful in the future if this project were to be extended to interact with more GraphQL data.
