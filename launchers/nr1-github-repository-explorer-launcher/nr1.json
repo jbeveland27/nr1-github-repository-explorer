@@ -1,0 +1,7 @@
+{
+  "schemaType": "LAUNCHER",
+  "id": "nr1-github-repository-explorer-launcher",
+  "description": "Access GitHub Repository Data using GraphQL API",
+  "displayName": "GitHub Repository Explorer",
+  "rootNerdletId": "nr1-github-repository-explorer-nerdlet"
+}

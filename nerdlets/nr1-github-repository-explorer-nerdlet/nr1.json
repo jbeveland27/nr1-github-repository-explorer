@@ -1,0 +1,6 @@
+{
+  "schemaType": "NERDLET",
+  "id": "nr1-github-repository-explorer-nerdlet",
+  "displayName": "GitHub Repository Explorer",
+  "description": "Access GitHub Repository Data using GraphQL API"
+}
