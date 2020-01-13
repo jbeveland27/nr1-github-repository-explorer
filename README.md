@@ -20,7 +20,7 @@ Create a New Relic One application that leverages platform features and queries 
 
 This integration for the New Relic One platform adds the ability to browse repositories directly within New Relic One. This application leverages the GitHub GraphQL API, so users need to create a [Personal Access Token](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line) in order to authenticate. This token will be stored securely with New Relic One's [`NerdStorage`](https://developer.newrelic.com/build-tools/new-relic-one-applications/nerdstorage) API.
 
-It's recommended to create a dedicated personal access token with `readonly` permissions for use with this application. Instructions can be found [here](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line).
+It's recommended to create a dedicated personal access token with `readonly` permissions for use with this application. You will need to grant `repo` scopes if you want private repository data to show up in the application. Instructions can be found [here](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line).
 
 ## Getting Started
 
